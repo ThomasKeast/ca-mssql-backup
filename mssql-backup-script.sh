@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This is a script for backing up MS SQL databases on a Linux system.
+# Designed to focus on one database but could be adapted as required to backup more.
+#
 # This script relies upon a crontab entry / schedule to work.
 # The number of days of retention can be set via the variable: NUMBER_OF_DAYS_OF_BACKUPS_TO_RETAIN
 # 
